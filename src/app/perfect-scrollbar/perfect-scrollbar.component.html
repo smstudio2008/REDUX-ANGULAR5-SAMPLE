@@ -1,0 +1,4 @@
+
+<div   *ngIf="sample" class="wrapper">
+  <div *ngFor="let data of sample | async" class="box">{{ data.currentDate }}</div>
+</div>
